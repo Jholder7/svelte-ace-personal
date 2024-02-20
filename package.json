@@ -6,6 +6,11 @@
   "main": "dist/index.js",
   "author": "Natesh Bhat",
   "svelte" : "./src/main.ts",
+  "export": {
+    ".": {
+      "svelte": "./src/main.ts"
+    }
+  }
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
