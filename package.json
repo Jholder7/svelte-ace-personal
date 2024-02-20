@@ -1,5 +1,5 @@
 {
-  "name": "svelte-ace-personal",
+  "name": "svelte-ace",
   "description": "Svelte Ace Editor component with complete TypeScript support",
   "version": "1.0.21",
   "module": "dist/index.mjs",
@@ -10,7 +10,7 @@
     ".": {
       "svelte": "./src/main.ts"
     }
-  }
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
