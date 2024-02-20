@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "author": "Natesh Bhat",
   "svelte" : "./src/main.ts",
-  "export": {
+  "exports": {
     ".": {
       "svelte": "./src/main.ts"
     }
